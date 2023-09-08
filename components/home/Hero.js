@@ -23,7 +23,7 @@ const Hero = () => {
         <div className=' md_tablet:mt-[2rem] lg_phone:mt-[6rem] mt-[5rem] relative md_tablet:w-[50%] w-[100%] md_tablet:h-[100%] h-auto flex flex-col justify-center md_tablet:items-end items-center' >
           <Image
             src={'/assets/hero-image.svg'}
-            alt={'Logo'} height={1500} width={1500}
+            alt={'Logo'} height={500} width={500}
             className=' sm_desktop:w-[100%] lg_phone:w-[35rem] w-[24rem] mt-[1rem]  z-[1] '
           />
         </div>
