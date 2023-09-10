@@ -24,6 +24,7 @@ const Hero = () => {
           <Image
             src={'/assets/hero-image.svg'}
             alt={'Logo'} height={500} width={500}
+            priority={true}
             className=' sm_desktop:w-[100%] lg_phone:w-[35rem] w-[24rem] mt-[1rem]  z-[1] '
           />
         </div>

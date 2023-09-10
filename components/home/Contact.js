@@ -3,8 +3,8 @@ import SecondaryButton from "../SecondaryButton"
 const Contact = () => {
   return (
     <>
-      <div className=" mx-auto flex justify-evenly xl_phone:w-[80%] w-[100%] h-[auto] py-[2rem] sm:px-[1.5rem] xl_phone:rounded-[1rem] contact-us-gradient " >
-        <div className=" flex flex-col justify-center sm:items-start items-center sm:w-[38%] w-[90%] gap-[1rem] " >
+      <div className=" mx-auto flex sm:justify-evenly xl_phone:w-[80%] w-[100%] h-[auto] py-[2rem] sm:px-[1.5rem] xl_phone:rounded-[1rem] contact-us-gradient " >
+        <div className=" flex flex-col justify-center sm:items-start  mx-auto sm:w-[38%] md_phone:w-[22rem] w-[90%] gap-[1rem] " >
           <h2 className="text-white font-montserrat font-[700] text-[2.5rem]" >Contact us</h2>
           <Image
             src={'/assets/contact-us.svg'}
