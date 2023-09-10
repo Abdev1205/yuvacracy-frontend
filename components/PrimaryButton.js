@@ -1,9 +1,9 @@
 
 
-const PrimaryButton = ({ data }) => {
+const PrimaryButton = ({ data, show }) => {
   return (
     <>
-      <button className=" w-fit px-[2rem] h-[2.5rem] bg-secondaryLight hover:bg-secondary text-white rounded-md" >{data}</button>
+      <button className={` ${show ? "hidden" : ""} w-fit px-[2rem] h-[2.5rem]  bg-secondaryLight hover:bg-secondary text-white rounded-md`} >{data}</button>
     </>
   )
 }

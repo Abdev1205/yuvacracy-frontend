@@ -49,6 +49,7 @@ module.exports = {
         'sm_tablet': '710px',
         'xl_phone': '855px',
         'lg_phone': '500px',
+        'xsm_tablet': '534px',
         'md_phone': '410px',
       },
     },
