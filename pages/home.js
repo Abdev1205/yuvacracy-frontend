@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar"
 import Hero from "@/components/home/Hero"
 import About from "@/components/home/About"
 import Programmes from "@/components/home/Programmes"
+import WhyChooseUs from "@/components/home/WhyChooseUs"
 const home = () => {
   return (
     <>
@@ -9,6 +10,7 @@ const home = () => {
       <Hero />
       <About />
       <Programmes />
+      <WhyChooseUs />
       <div className=" h-[60rem] ">
 
       </div>

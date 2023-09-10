@@ -7,8 +7,8 @@ import Image from 'next/image'
 const Hero = () => {
   return (
     <>
-      <div className=' w-[100%] md_tablet:flex-row flex-col-reverse sm_desktop:h-[55rem] md_tablet:h-[45rem] xl_phone:h-[110vh] lg_phone:h-[120vh] h-[95vh]  md_tablet:mt-[-5rem] mt-0 relative flex md_tablet:justify-between md_tablet:items-start items-center hero-gradient  z-10 ' >
-        <div className=' flex flex-col md_tablet:justify-center gap-[1rem] h-[100%] md_tablet:w-[50%] w-[100%] sm_desktop:mt-[2rem] mt-[2rem] md_tablet:ml-[5rem] ml-0 md_tablet:items-start items-center  ' >
+      <div className=' w-[100%] md_tablet:flex-row flex-col-reverse md_tablet:py-[2rem] py-[1.5rem] md_tablet:h-[100vh]  h-auto mt-0 relative flex md_tablet:justify-between md_tablet:items-start items-center hero-gradient  z-10 ' >
+        <div className=' flex flex-col md_tablet:justify-center gap-[1rem] my-auto h-[100%] md_tablet:w-[50%] w-[100%] sm_desktop:mt-[2rem] mt-[2rem] md_tablet:ml-[5rem] ml-0 md_tablet:items-start items-center  ' >
           <h1 className=' sm_desktop:text-[3rem] lg_phone:text-[2.5rem] text-[1.5rem] md_tablet:text-left text-center  font-montserrat font-[700] text-primary  ' >Developing <span className=' text-secondary '>Youths</span> for a Better Tomorrow</h1>
           <h2 className=' text-[#666]  sm_desktop:text-[1rem] md_tablet:text-left text-center text-[.8rem]  ' >Join us in shaping a better future for the youth community</h2>
           <div className=' flex gap-[1rem] my-[.5rem] sm_desktop:text-[2rem] text-[1.4rem] items-center  ' >
