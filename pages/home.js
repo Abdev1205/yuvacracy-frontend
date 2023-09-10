@@ -5,6 +5,7 @@ import Programmes from "@/components/home/Programmes"
 import WhyChooseUs from "@/components/home/WhyChooseUs"
 import Contact from "@/components/home/Contact"
 import Testimonials from "@/components/home/Testimonials"
+import Footer from "@/components/Footer"
 const home = () => {
   return (
     <>
@@ -15,9 +16,7 @@ const home = () => {
       <WhyChooseUs />
       <Contact />
       <Testimonials />
-      <div className=" h-[60rem] ">
-
-      </div>
+      <Footer />
     </>
   )
 }
