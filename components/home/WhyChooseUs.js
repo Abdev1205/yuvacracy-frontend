@@ -34,7 +34,7 @@ const WhyChooseUs = () => {
             {
               whyChooseUsData.map((data, index) => {
                 return (
-                  <div className="  " >
+                  <div key={index} className="  " >
                     <h2 className=" font-openSans mt-[-.5rem] flex items-center font-[600] text-[1.1rem] gap-[1rem] text-black " ><span className=" w-[1.7rem] h-[1.7rem] flex justify-center items-center rounded-[50%] bg-green   text-[1.2rem] " ><FaCheck className=" text-white " /></span> {data.title}</h2>
                   </div>
                 )

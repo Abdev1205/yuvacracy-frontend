@@ -25,10 +25,16 @@
   src: url(../public/Fonts/openSans/OpenSans-Regular.ttf);
 }
 
-/* hero section styles */
+/* home section styles */
 .hero-gradient {
   background: linear-gradient(111deg, #FBFEFF 40.41%, #E1F2FB 98.68%);
 }
+
+.contact-us-gradient {
+  background: linear-gradient(92deg, #036 34.91%, rgba(200, 50, 1, 0.54) 100.95%);
+}
+
+
 
 /* .instagram:hover {
   color: radial-gradient(circle, #8A3AB9, #FF5757);
