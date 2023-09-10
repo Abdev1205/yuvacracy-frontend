@@ -121,7 +121,7 @@ const Testimonials = () => {
                         <h3 className=' text-white font-openSans text-[.95rem] ' >{data.rating}</h3>
                       </div>
                     </div>
-                    <p className=" text-[#8a8a8a] text-[.89rem] font-openSans font-[400] " >{data.desc}</p>
+                    <p className=" text-[#b6aeae] text-[.89rem] font-openSans font-[400] " >{data.desc}</p>
                     <Link href={"/contact"} className=" text-green font-openSans text-[.8rem] " >
                       Read More
                       <hr className=" w-[4.3rem] h-[1.4px] bg-green  " />
