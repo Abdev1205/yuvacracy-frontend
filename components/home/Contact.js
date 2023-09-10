@@ -5,7 +5,7 @@ const Contact = () => {
     <>
       <div className=" mx-auto flex sm:justify-evenly xl_phone:w-[80%] w-[100%] h-[auto] py-[2rem] sm:px-[1.5rem] xl_phone:rounded-[1rem] contact-us-gradient " >
         <div className=" flex flex-col justify-center sm:items-start  mx-auto sm:w-[38%] md_phone:w-[22rem] w-[90%] gap-[1rem] " >
-          <h2 className="text-white font-montserrat font-[700] text-[2.5rem]" >Contact us</h2>
+          <h2 className="text-white font-montserrat font-[700] lg_phone:text-[2.5rem] text-[2rem]" >Contact us</h2>
           <Image
             src={'/assets/contact-us.svg'}
             alt={'Logo'} height={500} width={500}

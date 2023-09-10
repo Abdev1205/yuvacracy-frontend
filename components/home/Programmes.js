@@ -38,11 +38,11 @@ const Programmes = () => {
     <>
       <div className=' h-[auto] py-[2rem] w-[100%] relative flex md_tablet:flex-row flex-col justify-center items-center bg-[#EEF6FC] mt-[3rem]   ' >
         <div className=" h-[100%] sm_desktop:w-[40%] md_tablet:w-[35%] w-[85%] flex flex-col items-start justify-center gap-[1rem] sm_desktop:mr-[-2rem] " >
-          <h2 className=" text-primaryLight font-montserrat font-[700] text-[2.5rem]  " >Our Impactful Programs</h2>
+          <h2 className=" text-primary font-montserrat font-[700] lg_phone:text-[2.5rem] text-[2rem]  " >Our Impactful Programs</h2>
           <p className=" font-openSans font-[400] text-[#667085] " >Unlock your leadership potential through our transformative leadership programs designed to nurture confident and responsible leaders.</p>
           <div className=" flex md_tablet:flex-col xsm_tablet:flex-row flex-col gap-[1rem] xsm_tablet:my-[2rem] my-[1rem] " >
-            <h2 className=" font-openSans flex items-center font-[600] text-[1.1rem] gap-[1rem] text-primary " ><span className=" w-[1.7rem] h-[1.7rem] flex justify-center items-center rounded-[50%] bg-primary   text-[1.2rem] " ><FaCheck className=" text-white " /></span> Expertise and Guidance</h2>
-            <h2 className=" font-openSans flex items-center font-[600] text-[1.1rem] gap-[1rem] text-primary " ><span className=" w-[1.7rem] h-[1.7rem] flex justify-center items-center rounded-[50%] bg-primary  text-[1.2rem] " ><FaCheck className=" text-white " /></span>  Tailored Solutions</h2>
+            <h2 className=" font-openSans flex items-center font-[600] lg_phone:text-[1.1rem] text-[1rem] gap-[1rem] text-primary " ><span className="lg_phone:w-[1.7rem] w-[1.4rem] lg_phone:h-[1.7rem] h-[1.4rem] flex justify-center items-center rounded-[50%] bg-primary   lg_phone:text-[1.2rem] text-[.9rem] " ><FaCheck className=" text-white " /></span> Expertise and Guidance</h2>
+            <h2 className=" font-openSans flex items-center font-[600] lg_phone:text-[1.1rem] text-[1rem] gap-[1rem] text-primary " ><span className=" lg_phone:w-[1.7rem] w-[1.4rem] lg_phone:h-[1.7rem] h-[1.4rem] flex justify-center items-center rounded-[50%] bg-primary  lg_phone:text-[1.2rem] text-[.9rem] " ><FaCheck className=" text-white " /></span>  Tailored Solutions</h2>
           </div>
           <button className={`  w-fit px-[2rem] h-[2.5rem] md_tablet:flex hidden justify-center items-center   bg-secondaryLight hover:bg-secondary text-white rounded-md`} >View More Programs</button>
         </div>

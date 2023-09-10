@@ -58,7 +58,7 @@ const Testimonials = () => {
     <>
       <div className=' flex flex-col w-[100%] sm:mt-[6rem] mt-[3rem] ' >
         <h3 className=' mx-auto text-secondary text-center font-montserrat font-[400]  ' >TESTIMONIALS</h3>
-        <h2 className='mx-auto sm:mt-0 mt-[.8rem] text-primaryLight font-montserrat text-center text-[2.5rem] uppercase font-[700] ' >Hear from Our Community</h2>
+        <h2 className='mx-auto sm:mt-0 mt-[.8rem] text-center text-primary font-montserrat font-[700] lg_phone:text-[2.5rem] text-[2rem] ' >Hear from Our Community</h2>
         <div className='relative sm:mt-[3rem] mt-[2rem]  mx-auto xl_phone:w-[80%] w-[100%] '>
           <Swiper
             className=' flex justify-center w-[95%] h-[21rem]   mx-auto'

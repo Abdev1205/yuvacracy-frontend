@@ -14,7 +14,7 @@ const About = () => {
           />
         </div>
         <div className=' flex flex-col xl_phone:items-start lg_phone:items-center items-start lg_phone:px-0 pl-[1.5rem]  justify-center h-[auto] xl_phone:w-[40%] w-[95%] xl_phone:gap-[2rem] gap-[.5rem] ' >
-          <h2 className=' text-primaryLight font-montserrat font-[700] text-[2.5rem] ' >ABOUT US</h2>
+          <h2 className=' text-primary font-montserrat font-[700] lg_phone:text-[2.5rem] text-[2rem] ' >ABOUT US</h2>
           <Image
             src={'/assets/about-us.svg'}
             alt={'Logo'} height={500} width={500}
