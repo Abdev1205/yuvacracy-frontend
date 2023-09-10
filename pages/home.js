@@ -4,6 +4,7 @@ import About from "@/components/home/About"
 import Programmes from "@/components/home/Programmes"
 import WhyChooseUs from "@/components/home/WhyChooseUs"
 import Contact from "@/components/home/Contact"
+import Testimonials from "@/components/home/Testimonials"
 const home = () => {
   return (
     <>
@@ -13,6 +14,7 @@ const home = () => {
       <Programmes />
       <WhyChooseUs />
       <Contact />
+      <Testimonials />
       <div className=" h-[60rem] ">
 
       </div>

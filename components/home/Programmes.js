@@ -71,6 +71,8 @@ const Programmes = () => {
           <Swiper
             className=' flex justify-center w-[95%] h-[25rem]  mx-auto'
             slidesPerView={1}
+            grabCursor={true}
+            centeredSlides={true}
             style={{
               "--swiper-pagination-color": "#003366",
             }}
