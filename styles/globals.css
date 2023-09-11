@@ -38,6 +38,12 @@
   background: linear-gradient(114deg, #036 35.06%, #005EBC 115.34%);
 }
 
+@media screen and (max-width: 640px) {
+  .contact-us-gradient {
+    background: linear-gradient(114deg, #036 35.06%, #005EBC 115.34%);
+  }
+}
+
 
 
 /* .instagram:hover {
