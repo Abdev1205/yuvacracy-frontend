@@ -29,7 +29,7 @@ const Navbar = () => {
       <Head>
         <title>YuvaCracy</title>
       </Head>
-      <nav className={`fixed w-[100%] font-poppins z-50 top-0 md_tablet:pl-[1rem] pl-[0rem] pr-[1rem]  h-[4rem]  duration-150 flex justify-between items-center ${scrolly > 30 ? " shadow-xl bg-white  " : ""}`}>
+      <nav className={`fixed w-[100%] select-none font-poppins z-50 top-0 md_tablet:pl-[1rem] pl-[0rem] pr-[1rem]  h-[4rem]  duration-150 flex justify-between items-center ${scrolly > 30 ? " shadow-xl bg-white  " : ""}`}>
         <div className='lg_phone:ml-[4rem] ml-[1.4rem] mt-[.5rem] w-fit '>
           <Image
             src={'/assets/yuva-cracy.png'}

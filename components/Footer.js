@@ -7,7 +7,7 @@ import { BiLogoInstagramAlt } from 'react-icons/bi'
 const Footer = () => {
   return (
     <>
-      <div className=' flex flex-col  items-center  bg-[#EEF6FC] w-[100%] h-[auto] pt-[3rem] pb-[1rem] ' >
+      <div className=' select-none flex flex-col  items-center  bg-[#EEF6FC] w-[100%] h-[auto] pt-[3rem] pb-[1rem] ' >
         <div className=' flex  xl_phone:justify-center justify-start w-[90%] xl_phone:flex-nowrap flex-wrap gap-[2rem] ' >
           <div className=' flex flex-col gap-[1rem] xl_phone:w-auto md_phone:w-[20rem] w-[100%]  ' >
             <Image
