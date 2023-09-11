@@ -5,7 +5,7 @@ import { MdOutlineArrowOutward } from 'react-icons/md'
 const About = () => {
   return (
     <>
-      <div className=' flex xl_phone:flex-row flex-col justify-center w-[100%] h-[100%] mt-[3rem]  ' >
+      <div className=' select-none flex xl_phone:flex-row flex-col justify-center w-[100%] h-[100%] mt-[3rem]  ' >
         <div className=' xl_phone:flex w-[40%] h-[100%] hidden items-center ' >
           <Image
             src={'/assets/about-us1.svg'}

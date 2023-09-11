@@ -36,13 +36,13 @@ const Programmes = () => {
   ]
   return (
     <>
-      <div className=' h-[auto] py-[2rem] w-[100%] relative flex md_tablet:flex-row flex-col justify-center items-center bg-[#EEF6FC] mt-[3rem]   ' >
+      <div className=' select-none h-[auto] py-[2rem] w-[100%] relative flex md_tablet:flex-row flex-col justify-center items-center programme-section-gradient mt-[3rem]   ' >
         <div className=" h-[100%] sm_desktop:w-[40%] md_tablet:w-[35%] w-[85%] flex flex-col items-start justify-center gap-[1rem] sm_desktop:mr-[-2rem] " >
-          <h2 className=" text-primary font-montserrat font-[700] lg_phone:text-[2.5rem] text-[2rem]  " >Our Impactful Programs</h2>
-          <p className=" font-openSans font-[400] text-[#667085] " >Unlock your leadership potential through our transformative leadership programs designed to nurture confident and responsible leaders.</p>
+          <h2 className=" text-white font-montserrat uppercase sm:w-[25rem] font-[700] lg_phone:text-[2.5rem] text-[2rem]  " >Our Impactful Programs</h2>
+          <p className=" font-openSans font-[400] sm:w-[29rem] text-[.9rem] text-[#DFDFDF] " >Unlock your leadership potential through our transformative leadership programs designed to nurture confident and responsible leaders.</p>
           <div className=" flex md_tablet:flex-col xsm_tablet:flex-row flex-col gap-[1rem] xsm_tablet:my-[2rem] my-[1rem] " >
-            <h2 className=" font-openSans flex items-center font-[600] lg_phone:text-[1.1rem] text-[1rem] gap-[1rem] text-primary " ><span className="lg_phone:w-[1.7rem] w-[1.4rem] lg_phone:h-[1.7rem] h-[1.4rem] flex justify-center items-center rounded-[50%] bg-primary   lg_phone:text-[1.2rem] text-[.9rem] " ><FaCheck className=" text-white " /></span> Expertise and Guidance</h2>
-            <h2 className=" font-openSans flex items-center font-[600] lg_phone:text-[1.1rem] text-[1rem] gap-[1rem] text-primary " ><span className=" lg_phone:w-[1.7rem] w-[1.4rem] lg_phone:h-[1.7rem] h-[1.4rem] flex justify-center items-center rounded-[50%] bg-primary  lg_phone:text-[1.2rem] text-[.9rem] " ><FaCheck className=" text-white " /></span>  Tailored Solutions</h2>
+            <h2 className=" font-openSans flex items-center font-[500] lg_phone:text-[1.1rem] text-[1rem] gap-[1rem] text-[#C9C9C9] " ><span className="lg_phone:w-[1.7rem] w-[1.4rem] lg_phone:h-[1.7rem] h-[1.4rem] flex justify-center items-center rounded-[50%] bg-green   lg_phone:text-[1.2rem] text-[.9rem] " ><FaCheck className=" text-white " /></span> Expertise and Guidance</h2>
+            <h2 className=" font-openSans flex items-center font-[500] lg_phone:text-[1.1rem] text-[1rem] gap-[1rem] text-[#C9C9C9] " ><span className=" lg_phone:w-[1.7rem] w-[1.4rem] lg_phone:h-[1.7rem] h-[1.4rem] flex justify-center items-center rounded-[50%] bg-green  lg_phone:text-[1.2rem] text-[.9rem] " ><FaCheck className=" text-white " /></span>  Tailored Solutions</h2>
           </div>
           <button className={`  w-fit px-[2rem] h-[2.5rem] md_tablet:flex hidden justify-center items-center   bg-secondaryLight hover:bg-secondary text-white rounded-md`} >View More Programs</button>
         </div>
@@ -73,7 +73,7 @@ const Programmes = () => {
             slidesPerView={1}
             grabCursor={true}
             style={{
-              "--swiper-pagination-color": "#003366",
+              "--swiper-pagination-color": "#fff",
             }}
             loop={true}
             pagination={{
@@ -122,14 +122,14 @@ const Programmes = () => {
           </Swiper>
           {/* Carousel */}
           <div className=' z-[20] w-[90%] '>
-            <div onClick={() => swiperRef.current?.slidePrev()} className=' absolute top-1/2   -translate-y-[85%]    z-10 bg-primary rounded-full p-4  cursor-pointer border-white border-[4px] shadow-lg scale-[.8] ' >
+            <div onClick={() => swiperRef.current?.slidePrev()} className=' absolute top-1/2   -translate-y-[85%]    z-10 bg-[#C5F5BF] rounded-full p-4  cursor-pointer  shadow-lg scale-[.8] ' >
               <FaAngleLeft
-                className=' text-white text-[1rem] '
+                className=' text-primary text-[1rem] '
               />
             </div>
-            <div onClick={() => swiperRef.current?.slideNext()} className='  absolute top-1/2 right-0 -translate-y-[85%] z-10 bg-primary rounded-full p-4 cursor-pointer border-white border-4 shadow-lg scale-[.8]  ' >
+            <div onClick={() => swiperRef.current?.slideNext()} className=' absolute top-1/2 right-0 -translate-y-[85%] z-10 bg-[#C5F5BF] rounded-full p-4 cursor-pointer  shadow-lg scale-[.8]  ' >
               <FaAngleRight
-                className=' text-white text-[1rem] '
+                className=' text-primary text-[1rem] '
               />
             </div>
           </div>

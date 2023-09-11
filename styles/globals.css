@@ -34,6 +34,10 @@
   background: linear-gradient(92deg, #036 34.91%, rgba(200, 50, 1, 0.54) 100.95%);
 }
 
+.programme-section-gradient {
+  background: linear-gradient(114deg, #036 35.06%, #005EBC 115.34%);
+}
+
 
 
 /* .instagram:hover {

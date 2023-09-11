@@ -21,7 +21,7 @@ const WhyChooseUs = () => {
   ]
   return (
     <>
-      <div className=' flex flex-row-reverse justify-center items-center w-[100%] md_tablet:h-[90vh] h-auto md_tablet:py-0 py-[3rem] gap-[3rem] ' >
+      <div className=' select-none flex flex-row-reverse justify-center items-center w-[100%] md_tablet:h-[90vh] h-auto md_tablet:py-0 py-[3rem] gap-[3rem] ' >
         <div className=' flex flex-col justify-center md_tablet:items-start lg_phone:items-center items-start md_tablet:w-[40%] lg_phone:w-[30rem] w-[90%] h-[100%] xl_phone:gap-[2rem] gap-[1.5rem] ' >
           <h2 className="text-primary font-montserrat font-[700] lg_phone:text-[2.5rem] text-[2rem] " >Why Choose Us</h2>
           <Image
