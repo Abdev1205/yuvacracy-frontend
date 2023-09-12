@@ -2,13 +2,14 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { MdOutlineArrowOutward } from 'react-icons/md'
+import { aboutUSImage } from '@/public/assets'
 const About = () => {
   return (
     <>
       <div className=' select-none flex xl_phone:flex-row flex-col justify-center w-[100%] h-[100%] mt-[3rem]  ' >
         <div className=' xl_phone:flex w-[40%] h-[100%] hidden items-center ' >
           <Image
-            src={'/assets/about-us1.svg'}
+            src={aboutUSImage}
             alt={'Logo'} height={500} width={500}
             className=' w-[27rem]'
           />
@@ -16,7 +17,7 @@ const About = () => {
         <div className=' flex flex-col xl_phone:items-start lg_phone:items-center items-start lg_phone:px-0 pl-[1.5rem]  justify-center h-[auto] xl_phone:w-[40%] w-[95%] xl_phone:gap-[2rem] gap-[.5rem] ' >
           <h2 className=' text-primary font-montserrat font-[700] lg_phone:text-[2.5rem] text-[2rem] ' >ABOUT US</h2>
           <Image
-            src={'/assets/about-us.svg'}
+            src={'/assets/about-us1.svg'}
             alt={'Logo'} height={500} width={500}
             className=' xl_phone:hidden hidden mt-[-2.5rem]  lg_phone:w-[20rem] w-[15rem] '
           />

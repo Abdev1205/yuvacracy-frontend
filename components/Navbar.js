@@ -5,6 +5,7 @@ import { useRouter } from 'next/router';
 import Head from 'next/head';
 import { HiMenu } from 'react-icons/hi'
 import { FaXmark } from 'react-icons/fa6'
+import { yuvaCracyLogo } from '@/public/assets';
 const Navbar = () => {
   const router = useRouter();
   const [scrolly, setScrolly] = useState(0);
@@ -32,7 +33,7 @@ const Navbar = () => {
       <nav className={`fixed w-[100%] select-none font-poppins z-50 top-0 md_tablet:pl-[1rem] pl-[0rem] pr-[1rem]  h-[4rem]  duration-150 flex justify-between items-center ${scrolly > 30 ? " shadow-xl bg-white  " : ""}`}>
         <div className='lg_phone:ml-[4rem] ml-[1.4rem] mt-[.5rem] w-fit '>
           <Image
-            src={'/assets/yuva-cracy.png'}
+            src={yuvaCracyLogo}
             alt={'Logo'} height={500} width={500}
             className=' w-[7rem]'
           />

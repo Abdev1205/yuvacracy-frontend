@@ -7,47 +7,48 @@ import 'swiper/css/pagination';
 import { FaCheck, FaAngleRight, FaAngleLeft } from "react-icons/fa6"
 import Link from 'next/link';
 import Image from 'next/image';
+import { testimonialsPersonImage } from '@/public/assets';
 
 const Testimonials = () => {
   const swiperRef = useRef();
   const testimonialsData = [
     {
-      img: "/assets/person.png",
+      img: testimonialsPersonImage,
       title: "Michael Johnson",
       occupation: "Small Business Owner",
       rating: "4.5/5",
       desc: "I've attended several workshops and webinars by Yuvacracy, and each time, I've come away with practical knowledge I could immediately apply to my business. Their commitment to education is commendable.",
     },
     {
-      img: "/assets/person.png",
+      img: testimonialsPersonImage,
       title: "Michael Johnson",
       occupation: "Small Business Owner",
       rating: "4.5/5",
       desc: "I've attended several workshops and webinars by Yuvacracy, and each time, I've come away with practical knowledge I could immediately apply to my business. Their commitment to education is commendable.",
     },
     {
-      img: "/assets/person.png",
+      img: testimonialsPersonImage,
       title: "Michael Johnson",
       occupation: "Small Business Owner",
       rating: "4.5/5",
       desc: "I've attended several workshops and webinars by Yuvacracy, and each time, I've come away with practical knowledge I could immediately apply to my business. Their commitment to education is commendable.",
     },
     {
-      img: "/assets/person.png",
+      img: testimonialsPersonImage,
       title: "Michael Johnson",
       occupation: "Small Business Owner",
       rating: "4.5/5",
       desc: "I've attended several workshops and webinars by Yuvacracy, and each time, I've come away with practical knowledge I could immediately apply to my business. Their commitment to education is commendable.",
     },
     {
-      img: "/assets/person.png",
+      img: testimonialsPersonImage,
       title: "Michael Johnson",
       occupation: "Small Business Owner",
       rating: "4.5/5",
       desc: "I've attended several workshops and webinars by Yuvacracy, and each time, I've come away with practical knowledge I could immediately apply to my business. Their commitment to education is commendable.",
     },
     {
-      img: "/assets/person.png",
+      img: testimonialsPersonImage,
       title: "Michael Johnson",
       occupation: "Small Business Owner",
       rating: "4.5/5",

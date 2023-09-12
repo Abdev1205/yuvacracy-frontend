@@ -1,13 +1,14 @@
 import Image from "next/image"
 import SecondaryButton from "../SecondaryButton"
 import PrimaryButton from "../PrimaryButton"
+import { contactUsImage } from "@/public/assets"
 const Contact = () => {
   return (
     <>
       <div className=" select-none mx-auto flex sm:justify-evenly xl_phone:w-[80%] w-[100%] h-[auto] py-[2rem] sm:px-[1.5rem] xl_phone:rounded-[1rem] contact-us-gradient    " >
         <div className=" flex flex-col justify-center sm:items-start  mx-auto sm:w-[38%] md_phone:w-[22rem] w-[90%] gap-[1rem] " >
           <Image
-            src={'/assets/contact-us.svg'}
+            src={contactUsImage}
             alt={'Logo'} height={500} width={500}
             className=' sm:hidden flex  w-[18rem]  '
           />
@@ -19,7 +20,7 @@ const Contact = () => {
         </div>
         <div className=" sm:flex hidden justify-center w-[40%]  " >
           <Image
-            src={'/assets/contact-us.svg'}
+            src={contactUsImage}
             alt={'Logo'} height={500} width={500}
             className='   w-[28rem]  '
           />

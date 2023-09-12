@@ -1,6 +1,6 @@
 import Image from "next/image"
 import { FaCheck } from "react-icons/fa6"
-
+import { whyChooseUsImage } from "@/public/assets"
 const WhyChooseUs = () => {
   const whyChooseUsData = [
     {
@@ -24,7 +24,7 @@ const WhyChooseUs = () => {
       <div className=' select-none flex flex-row-reverse justify-center items-center w-[100%] md_tablet:h-[90vh] h-auto md_tablet:py-0 py-[3rem] gap-[3rem] ' >
         <div className=' flex flex-col justify-center md_tablet:items-start  items-start md_tablet:w-[40%] lg_phone:w-[30rem] w-[90%] h-[100%] xl_phone:gap-[2rem] gap-[1.5rem] ' >
           <Image
-            src={'/assets/why-choose-us.svg'}
+            src={whyChooseUsImage}
             alt={'Logo'} height={500} width={500}
             className=' md_tablet:hidden w-[18rem]  mx-auto '
           />
@@ -44,7 +44,7 @@ const WhyChooseUs = () => {
         </div>
         <div className='md_tablet:flex hidden justify-center items-center w-[45%] h-[100%] ' >
           <Image
-            src={'/assets/why-choose-us.svg'}
+            src={whyChooseUsImage}
             alt={'Logo'} height={500} width={500}
             className=' w-[27rem]'
           />

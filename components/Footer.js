@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { FaFacebookF, FaTwitter, FaYoutube } from 'react-icons/fa'
 import { FaRegCopyright, FaAngleRight } from "react-icons/fa6"
 import { BiLogoInstagramAlt } from 'react-icons/bi'
+import { yuvaCracyLogo } from '@/public/assets'
 const Footer = () => {
   return (
     <>
@@ -11,7 +12,7 @@ const Footer = () => {
         <div className=' flex  xl_phone:justify-center justify-start w-[90%] xl_phone:flex-nowrap flex-wrap gap-[2rem] ' >
           <div className=' flex flex-col gap-[1rem] xl_phone:w-auto md_phone:w-[20rem] w-[100%]  ' >
             <Image
-              src={'/assets/Yuva-cracy.png'}
+              src={yuvaCracyLogo}
               alt={'Logo'} height={500} width={500}
               className='  w-[11rem] md_phone:ml-[-.5rem] '
             />

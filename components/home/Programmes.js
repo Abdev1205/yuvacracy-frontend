@@ -6,29 +6,30 @@ import 'swiper/css/pagination';
 import Image from "next/image"
 import Link from "next/link"
 import { FaCheck, FaAngleRight, FaAngleLeft } from "react-icons/fa6"
+import { progrmmesIcon1, progrmmesIcon2, progrmmesIcon3, progrmmesIcon4 } from '@/public/assets';
 const Programmes = () => {
   const swiperRef = useRef();
   const programmesData = [
     {
-      img: "/assets/programmes-icon-1.svg",
+      img: progrmmesIcon1,
       title: "Leadership Development",
       desc: "Unlock your leadership potential through our transformative leadership programs designed to nurture confident and responsible leaders.",
       link: "/programmes"
     },
     {
-      img: "/assets/programmes-icon-2.svg",
+      img: progrmmesIcon2,
       title: "Leadership Development",
       desc: "Unlock your leadership potential through our transformative leadership programs designed to nurture confident and responsible leaders.",
       link: "/programmes"
     },
     {
-      img: "/assets/programmes-icon-3.svg",
+      img: progrmmesIcon3,
       title: "Leadership Development",
       desc: "Unlock your leadership potential through our transformative leadership programs designed to nurture confident and responsible leaders.",
       link: "/programmes"
     },
     {
-      img: "/assets/programmes-icon-4.svg",
+      img: progrmmesIcon4,
       title: "Leadership Development",
       desc: "Unlock your leadership potential through our transformative leadership programs designed to nurture confident and responsible leaders.",
       link: "/programmes"
