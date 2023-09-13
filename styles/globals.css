@@ -103,7 +103,7 @@
 @keyframes pulse-logo {
   0% {
     transform: scale(0.95);
-    box-shadow: 0 0 0 0 #C83201;
+    box-shadow: 0 0 0 0 #003366;
   }
 
   70% {
@@ -121,10 +121,10 @@
   width: 180px;
   height: 180px;
   background: transparent;
-  border: 3px solid #c833017f;
+  border: 3px solid #0033668a;
   border-radius: 50%;
-  color: #C83201;
-  text-shadow: 0 0 10px #C83201;
+  color: #003366;
+  text-shadow: 0 0 10px #003366;
   box-shadow: 0 0 20px rgba(0, 0, 0, .15);
 }
 
@@ -136,8 +136,8 @@
   width: 104%;
   height: 104%;
   border: 3px solid transparent;
-  border-top: 3px solid #C83201;
-  border-right: 3px solid #C83201;
+  border-top: 3px solid #003366;
+  border-right: 3px solid #003366;
   border-radius: 50%;
   animation: animateC 2s linear infinite;
 }
@@ -160,10 +160,10 @@
   width: 16px;
   height: 16px;
   border-radius: 50%;
-  background: #C83201;
+  background: #003366;
   top: -6px;
   right: -8px;
-  box-shadow: 0 0 20px 5px #C83201;
+  box-shadow: 0 0 20px 5px #003366;
 }
 
 @keyframes animateC {

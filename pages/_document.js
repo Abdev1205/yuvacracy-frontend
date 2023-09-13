@@ -4,7 +4,10 @@ import Image from 'next/image'
 export default function Document() {
   return (
     <Html lang="en">
-      <Head />
+      <Head>
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="manifest" href="/manifest.webmanifest" />
+      </Head>
       <body>
         <div id={'globalLoader'} className=' flex justify-center bg-white items-center w-[100%] h-[100vh] '>
           <div className="loader blob loading  ">

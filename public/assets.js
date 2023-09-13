@@ -9,6 +9,8 @@ import progrmmesIcon4 from "../public/Assets/programmes-icon-4.svg"
 import testimonialsPersonImage from "../public/Assets/person.png"
 import heroImage from "../public/Assets/hero-image.svg"
 import contactUsImage from "../public/Assets/contact-us.svg"
+import noConnectionImage from "../public/assets/no-connection.png"
+import downloadAppImage from "../public/assets/download-app.png"
 export {
-  aboutUSImage, whyChooseUsImage, yuvaCracyLogo, underConstructionImage, progrmmesIcon1, progrmmesIcon2, progrmmesIcon3, progrmmesIcon4, testimonialsPersonImage, heroImage,contactUsImage
+  aboutUSImage, whyChooseUsImage, yuvaCracyLogo, underConstructionImage, progrmmesIcon1, progrmmesIcon2, progrmmesIcon3, progrmmesIcon4, testimonialsPersonImage, heroImage, contactUsImage, noConnectionImage, downloadAppImage
 }

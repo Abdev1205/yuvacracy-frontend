@@ -1,4 +1,5 @@
 import React from 'react'
+import { useEffect, useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { MdOutlineArrowOutward } from 'react-icons/md'
@@ -24,7 +25,7 @@ const About = () => {
             className=' xl_phone:hidden hidden mt-[-2.5rem]  lg_phone:w-[20rem] w-[15rem] '
           />
           <p className=' text-[#667085] font-openSans font-[400] xl_phone:w-[100%] sm:w-[30rem] w-[95%]  ' >The mission of the Mumbai, Maharashtra-based YuvaCracy Foundation, a youth-led organization, is to promote the growth and development of young people. We act as a vibrant space for young minds to interact, engage, and have fun while building a powerful network of change-makers. Our commitment is to support youth-friendly legislation, mobilize young people for significant social projects, and deliver effective development programs.</p>
-          <Link href={'/about'} className=' font-montserrat font-[500] lg_phone:mt-[0rem] mt-[0rem] flex-col items-center text-green text-[1rem] gap-[0rem]  ' >
+          <Link href={'/contact'} className=' font-montserrat font-[500] lg_phone:mt-[0rem] mt-[0rem] flex-col items-center text-green text-[1rem] gap-[0rem]  ' >
             <h2 className=' flex items-center gap-[.5rem] ' >
               Learn More
               <MdOutlineArrowOutward className='  text-[1.2rem] font-[400] ' />

@@ -1,11 +1,36 @@
 import React from 'react'
 import Image from 'next/image'
+import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import { FaFacebookF, FaTwitter, FaYoutube } from 'react-icons/fa'
 import { FaRegCopyright, FaAngleRight } from "react-icons/fa6"
 import { BiLogoInstagramAlt } from 'react-icons/bi'
-import { yuvaCracyLogo } from '@/public/assets'
+import { yuvaCracyLogo, downloadAppImage } from '@/public/assets'
 const Footer = () => {
+  const [deferredPrompt, setDeferredPrompt] = useState(null);
+
+  useEffect(() => {
+    window.addEventListener('beforeinstallprompt', (e) => {
+      e.preventDefault();
+      setDeferredPrompt(e);
+    });
+  }, []);
+  const handleInstallClick = () => {
+    if (deferredPrompt) {
+      deferredPrompt.prompt();
+      deferredPrompt.userChoice.then((choiceResult) => {
+        if (choiceResult.outcome === 'accepted') {
+          console.log('User accepted the A2HS prompt');
+        } else {
+          console.log('User dismissed the A2HS prompt');
+        }
+        setDeferredPrompt(null);
+      });
+    }
+    else {
+      alert("YuvaCracy App is already installed in your system")
+    }
+  };
   return (
     <>
       <div className=' select-none flex flex-col  items-center  bg-[#EEF6FC] w-[100%] h-[auto] pt-[3rem] pb-[1rem] ' >
@@ -52,6 +77,12 @@ const Footer = () => {
               <FaYoutube className=' text-primary  hover:text-[#FF0000] duration-150 cursor-pointer ' />
               <FaFacebookF className=' text-primary hover:text-[#4267B2] duration-150 cursor-pointer ' />
             </div>
+            <Image
+              onClick={() => handleInstallClick()}
+              src={downloadAppImage}
+              alt={'Logo'} height={500} width={500}
+              className='  w-[15rem] mt-[1rem] cursor-pointer  '
+            />
           </div>
         </div>
         <hr className=' mt-[2rem] bg-[#C9C9C9] w-[100%] h-[1.5px] ' />
