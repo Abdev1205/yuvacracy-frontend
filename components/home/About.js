@@ -10,6 +10,7 @@ const About = () => {
         <div className=' xl_phone:flex w-[40%] h-[100%] hidden items-center ' >
           <Image
             src={aboutUSImage}
+            loading='eager'
             alt={'Logo'} height={500} width={500}
             className=' w-[27rem]'
           />
@@ -18,6 +19,7 @@ const About = () => {
           <h2 className=' text-primary font-montserrat font-[700] lg_phone:text-[2.5rem] text-[2rem] ' >ABOUT US</h2>
           <Image
             src={'/assets/about-us1.svg'}
+            loading='eager'
             alt={'Logo'} height={500} width={500}
             className=' xl_phone:hidden hidden mt-[-2.5rem]  lg_phone:w-[20rem] w-[15rem] '
           />

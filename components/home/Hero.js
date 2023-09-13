@@ -25,6 +25,7 @@ const Hero = () => {
           <Image
             src={heroImage}
             alt={'Logo'} height={500} width={500}
+            loading='eager'
             className=' sm_desktop:w-[100%] lg_phone:w-[35rem] w-[24rem] mt-[1rem]  z-[1] '
           />
         </div>
